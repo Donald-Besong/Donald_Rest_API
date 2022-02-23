@@ -27,7 +27,7 @@ project_description
 
 <ol>
 <li> Clone the repository </li>
-<li> cd base directory that contains app.py </li>
+<li> Make sure you are in the root directory, that contains app.py </li>
 <li> Create and activate environment: <i>make -f makefile.mak make_env </i></li>
 <li> Install modules using pip <i>make -f makefile.mak make_env2 </i> </li>
 <li> export FLASK_APP=app.py && export FLASK_DEBUG=1 && export FLASK_ENV=development </li>
