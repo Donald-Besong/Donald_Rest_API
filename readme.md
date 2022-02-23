@@ -8,43 +8,29 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<a href="http://github.com/Donald-Besong/Cake_API">
+<a href="http://github.com/Donald-Besong/Donald_Rest_API">
 <img src="images/logo.png" alt="Logo" width="80" height="80">
 </a>
 
-<h3 align="center">Donald's cake shelf</h3>
+<h3 align="center">Donald's rest API</h3>
 <p align="center">
 project_description
 <br />
-<a href="http://github.com/Donald-Besong/Cake_API"><strong>Explore the docs »</strong></a>
+<a href="http://github.com/Donald-Besong/Donald_Rest_API"><strong>Explore the docs »</strong></a>
 </p>
 </div>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Instructions
+<h3>Instructions</h3>
 
+<ol>
+<li> Clone the repository </li>
+<li> cd base directory that contains app.py </li>
+<li> Create and activate environment: <i>make -f makefile.mak make_env </i></li>
+<li> Install modules using pip <i>make -f makefile.mak make_env2 </i> </li>
+<li> export FLASK_APP=app.py && export FLASK_DEBUG=1 && export FLASK_ENV=development </li>
+<li> On your browser load <i>127.0.0.1:5000</i> </li>
 
-1. Clone the repo
-  
-2. cd base directory that contains app.py
-   
-3. Create an envirnment:  python3 -m venv CakeEnv3
-
-4. Activate the environment: . CakeEnv3/bin/activate
-
-5. install pythopn packages using pip.requirements.txt is in this 
-   folder
-   
-6. If using ubuntu:
-export FLASK_APP=app.py
-export FLASK_DEBUG=1
-export FLASK_ENV=development
-
-7. flask run
-
-8. On your browser load 127.0.0.1:5000/swagger
-9. On the swagger website make use of the documentation and HTTP verbs
+</ol>
